@@ -26,7 +26,7 @@ func main() {
     return
   }
 
-  length /=16
+  length /= 8
 
   buffer := make([]byte, length)
   _, err := rand.Read(buffer)
